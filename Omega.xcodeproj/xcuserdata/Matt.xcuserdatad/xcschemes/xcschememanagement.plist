@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>OmegaActionExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>SharedCode.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +28,21 @@
 			<true/>
 		</dict>
 		<key>C94A900B1E0B52190071CEB3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C98089251E0B7E8500383F01</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C980892D1E0B7E8500383F01</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C98089471E0B7EC800383F01</key>
 		<dict>
 			<key>primary</key>
 			<true/>

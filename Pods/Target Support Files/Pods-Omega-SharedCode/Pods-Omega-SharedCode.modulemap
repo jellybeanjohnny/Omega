@@ -1,0 +1,6 @@
+framework module Pods_Omega_SharedCode {
+  umbrella header "Pods-Omega-SharedCode-umbrella.h"
+
+  export *
+  module * { export * }
+}

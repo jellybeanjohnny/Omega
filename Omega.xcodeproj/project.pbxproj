@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ABAD6457BF914D8304592A4 /* Pods_OmegaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F269FC7A276F8A5B24FBED /* Pods_OmegaTests.framework */; };
+		641D8E6BC922FBFBD11B3E38 /* Pods_Omega_SharedCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5C9F7A4FD44A96DB2F7E81 /* Pods_Omega_SharedCode.framework */; };
 		C94A8FFC1E0B52190071CEB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94A8FFB1E0B52190071CEB3 /* AppDelegate.swift */; };
-		C94A8FFE1E0B52190071CEB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94A8FFD1E0B52190071CEB3 /* ViewController.swift */; };
-		C94A90011E0B52190071CEB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94A8FFF1E0B52190071CEB3 /* Main.storyboard */; };
 		C94A90031E0B52190071CEB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94A90021E0B52190071CEB3 /* Assets.xcassets */; };
 		C94A90061E0B52190071CEB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94A90041E0B52190071CEB3 /* LaunchScreen.storyboard */; };
 		C94A90111E0B52190071CEB3 /* OmegaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94A90101E0B52190071CEB3 /* OmegaTests.swift */; };
+		C94A901C1E0B53960071CEB3 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94A901B1E0B53960071CEB3 /* ReviewViewController.swift */; };
+		C980890D1E0B795D00383F01 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C980890C1E0B795D00383F01 /* HomeViewController.swift */; };
+		C980892F1E0B7E8500383F01 /* SharedCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98089261E0B7E8500383F01 /* SharedCode.framework */; };
+		C98089361E0B7E8500383F01 /* SharedCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98089351E0B7E8500383F01 /* SharedCodeTests.swift */; };
+		C98089381E0B7E8500383F01 /* SharedCode.h in Headers */ = {isa = PBXBuildFile; fileRef = C98089281E0B7E8500383F01 /* SharedCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C980893B1E0B7E8500383F01 /* SharedCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98089261E0B7E8500383F01 /* SharedCode.framework */; };
+		C980893C1E0B7E8500383F01 /* SharedCode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C98089261E0B7E8500383F01 /* SharedCode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C980894B1E0B7EC800383F01 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C980894A1E0B7EC800383F01 /* ActionViewController.swift */; };
+		C980894E1E0B7EC800383F01 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C980894C1E0B7EC800383F01 /* MainInterface.storyboard */; };
+		C98089521E0B7EC800383F01 /* OmegaActionExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C98089481E0B7EC800383F01 /* OmegaActionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C98089591E0C527700383F01 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98089581E0C527700383F01 /* Entry.swift */; };
+		C980895C1E0C546500383F01 /* JapaneseEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C980895B1E0C546500383F01 /* JapaneseEntry.swift */; };
+		C98089611E0C775500383F01 /* JMdict_e in Resources */ = {isa = PBXBuildFile; fileRef = C98089601E0C775500383F01 /* JMdict_e */; };
+		C98089631E0C780C00383F01 /* JDictInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98089621E0C780C00383F01 /* JDictInterface.swift */; };
+		EA7EAD98C3D61014B1162044 /* Pods_Omega.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70096AB4540BACD8C77A363 /* Pods_Omega.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,19 +38,110 @@
 			remoteGlobalIDString = C94A8FF71E0B52190071CEB3;
 			remoteInfo = Omega;
 		};
+		C980891D1E0B7DD900383F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C98089181E0B7DD900383F01 /* Jellybean.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C94A594E1DC052F300695639;
+			remoteInfo = Jellybean;
+		};
+		C980891F1E0B7DD900383F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C98089181E0B7DD900383F01 /* Jellybean.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C94A59571DC052F400695639;
+			remoteInfo = JellybeanTests;
+		};
+		C98089301E0B7E8500383F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C94A8FF01E0B52180071CEB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C98089251E0B7E8500383F01;
+			remoteInfo = SharedCode;
+		};
+		C98089321E0B7E8500383F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C94A8FF01E0B52180071CEB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C94A8FF71E0B52190071CEB3;
+			remoteInfo = Omega;
+		};
+		C98089391E0B7E8500383F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C94A8FF01E0B52180071CEB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C98089251E0B7E8500383F01;
+			remoteInfo = SharedCode;
+		};
+		C98089501E0B7EC800383F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C94A8FF01E0B52180071CEB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C98089471E0B7EC800383F01;
+			remoteInfo = OmegaActionExtension;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C98089401E0B7E8500383F01 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C980893C1E0B7E8500383F01 /* SharedCode.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98089561E0B7EC800383F01 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C98089521E0B7EC800383F01 /* OmegaActionExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		16438801F75B3F2466C13E22 /* Pods-Omega-SharedCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omega-SharedCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Omega-SharedCode/Pods-Omega-SharedCode.debug.xcconfig"; sourceTree = "<group>"; };
+		17183F40C725E4D74A4342D5 /* Pods-OmegaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmegaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OmegaTests/Pods-OmegaTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D5C9F7A4FD44A96DB2F7E81 /* Pods_Omega_SharedCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Omega_SharedCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D54A7E4A20C9A766A79E503 /* Pods-Omega.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omega.release.xcconfig"; path = "Pods/Target Support Files/Pods-Omega/Pods-Omega.release.xcconfig"; sourceTree = "<group>"; };
+		50F7ABA0FCF0BE7803821A86 /* Pods-OmegaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmegaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OmegaTests/Pods-OmegaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DC9C94320E172BF182BC452 /* Pods-Omega.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omega.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Omega/Pods-Omega.debug.xcconfig"; sourceTree = "<group>"; };
 		C94A8FF81E0B52190071CEB3 /* Omega.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omega.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94A8FFB1E0B52190071CEB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C94A8FFD1E0B52190071CEB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C94A90001E0B52190071CEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C94A90021E0B52190071CEB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C94A90051E0B52190071CEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C94A90071E0B52190071CEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C94A900C1E0B52190071CEB3 /* OmegaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmegaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94A90101E0B52190071CEB3 /* OmegaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmegaTests.swift; sourceTree = "<group>"; };
 		C94A90121E0B52190071CEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C94A901B1E0B53960071CEB3 /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		C980890C1E0B795D00383F01 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C98089181E0B7DD900383F01 /* Jellybean.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Jellybean.xcodeproj; path = ../Jellybean/Jellybean.xcodeproj; sourceTree = "<group>"; };
+		C98089261E0B7E8500383F01 /* SharedCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SharedCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98089281E0B7E8500383F01 /* SharedCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedCode.h; sourceTree = "<group>"; };
+		C98089291E0B7E8500383F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C980892E1E0B7E8500383F01 /* SharedCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98089351E0B7E8500383F01 /* SharedCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedCodeTests.swift; sourceTree = "<group>"; };
+		C98089371E0B7E8500383F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C98089481E0B7EC800383F01 /* OmegaActionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OmegaActionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C980894A1E0B7EC800383F01 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		C980894D1E0B7EC800383F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		C980894F1E0B7EC800383F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C98089581E0C527700383F01 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		C980895B1E0C546500383F01 /* JapaneseEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapaneseEntry.swift; sourceTree = "<group>"; };
+		C98089601E0C775500383F01 /* JMdict_e */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = JMdict_e; sourceTree = "<group>"; };
+		C98089621E0C780C00383F01 /* JDictInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDictInterface.swift; sourceTree = "<group>"; };
+		D0F269FC7A276F8A5B24FBED /* Pods_OmegaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OmegaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0F0DEC2035E1D038440AF7 /* Pods-Omega-SharedCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omega-SharedCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-Omega-SharedCode/Pods-Omega-SharedCode.release.xcconfig"; sourceTree = "<group>"; };
+		F70096AB4540BACD8C77A363 /* Pods_Omega.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Omega.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,10 +149,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C980893B1E0B7E8500383F01 /* SharedCode.framework in Frameworks */,
+				EA7EAD98C3D61014B1162044 /* Pods_Omega.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C94A90091E0B52190071CEB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABAD6457BF914D8304592A4 /* Pods_OmegaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98089221E0B7E8500383F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641D8E6BC922FBFBD11B3E38 /* Pods_Omega_SharedCode.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C980892B1E0B7E8500383F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C980892F1E0B7E8500383F01 /* SharedCode.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98089451E0B7EC800383F01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,12 +188,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9DE2DE1DDED079D8D80BB2E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DC9C94320E172BF182BC452 /* Pods-Omega.debug.xcconfig */,
+				4D54A7E4A20C9A766A79E503 /* Pods-Omega.release.xcconfig */,
+				50F7ABA0FCF0BE7803821A86 /* Pods-OmegaTests.debug.xcconfig */,
+				17183F40C725E4D74A4342D5 /* Pods-OmegaTests.release.xcconfig */,
+				16438801F75B3F2466C13E22 /* Pods-Omega-SharedCode.debug.xcconfig */,
+				EE0F0DEC2035E1D038440AF7 /* Pods-Omega-SharedCode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C94A8FEF1E0B52180071CEB3 = {
 			isa = PBXGroup;
 			children = (
+				C98089181E0B7DD900383F01 /* Jellybean.xcodeproj */,
 				C94A8FFA1E0B52190071CEB3 /* Omega */,
 				C94A900F1E0B52190071CEB3 /* OmegaTests */,
+				C98089271E0B7E8500383F01 /* SharedCode */,
+				C98089341E0B7E8500383F01 /* SharedCodeTests */,
+				C98089491E0B7EC800383F01 /* OmegaActionExtension */,
 				C94A8FF91E0B52190071CEB3 /* Products */,
+				9DE2DE1DDED079D8D80BB2E9 /* Pods */,
+				EC2464ED0E652C05EB65EDF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +221,9 @@
 			children = (
 				C94A8FF81E0B52190071CEB3 /* Omega.app */,
 				C94A900C1E0B52190071CEB3 /* OmegaTests.xctest */,
+				C98089261E0B7E8500383F01 /* SharedCode.framework */,
+				C980892E1E0B7E8500383F01 /* SharedCodeTests.xctest */,
+				C98089481E0B7EC800383F01 /* OmegaActionExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,8 +232,8 @@
 			isa = PBXGroup;
 			children = (
 				C94A8FFB1E0B52190071CEB3 /* AppDelegate.swift */,
-				C94A8FFD1E0B52190071CEB3 /* ViewController.swift */,
-				C94A8FFF1E0B52190071CEB3 /* Main.storyboard */,
+				C94A901B1E0B53960071CEB3 /* ReviewViewController.swift */,
+				C980890C1E0B795D00383F01 /* HomeViewController.swift */,
 				C94A90021E0B52190071CEB3 /* Assets.xcassets */,
 				C94A90041E0B52190071CEB3 /* LaunchScreen.storyboard */,
 				C94A90071E0B52190071CEB3 /* Info.plist */,
@@ -96,20 +250,97 @@
 			path = OmegaTests;
 			sourceTree = "<group>";
 		};
+		C98089191E0B7DD900383F01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C980891E1E0B7DD900383F01 /* Jellybean.framework */,
+				C98089201E0B7DD900383F01 /* JellybeanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C98089271E0B7E8500383F01 /* SharedCode */ = {
+			isa = PBXGroup;
+			children = (
+				C98089601E0C775500383F01 /* JMdict_e */,
+				C980895A1E0C544600383F01 /* Models */,
+				C98089281E0B7E8500383F01 /* SharedCode.h */,
+				C98089291E0B7E8500383F01 /* Info.plist */,
+				C98089621E0C780C00383F01 /* JDictInterface.swift */,
+			);
+			path = SharedCode;
+			sourceTree = "<group>";
+		};
+		C98089341E0B7E8500383F01 /* SharedCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C98089351E0B7E8500383F01 /* SharedCodeTests.swift */,
+				C98089371E0B7E8500383F01 /* Info.plist */,
+			);
+			path = SharedCodeTests;
+			sourceTree = "<group>";
+		};
+		C98089491E0B7EC800383F01 /* OmegaActionExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C980894A1E0B7EC800383F01 /* ActionViewController.swift */,
+				C980894C1E0B7EC800383F01 /* MainInterface.storyboard */,
+				C980894F1E0B7EC800383F01 /* Info.plist */,
+			);
+			path = OmegaActionExtension;
+			sourceTree = "<group>";
+		};
+		C980895A1E0C544600383F01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C98089581E0C527700383F01 /* Entry.swift */,
+				C980895B1E0C546500383F01 /* JapaneseEntry.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EC2464ED0E652C05EB65EDF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F70096AB4540BACD8C77A363 /* Pods_Omega.framework */,
+				D0F269FC7A276F8A5B24FBED /* Pods_OmegaTests.framework */,
+				1D5C9F7A4FD44A96DB2F7E81 /* Pods_Omega_SharedCode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C98089231E0B7E8500383F01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98089381E0B7E8500383F01 /* SharedCode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		C94A8FF71E0B52190071CEB3 /* Omega */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C94A90151E0B52190071CEB3 /* Build configuration list for PBXNativeTarget "Omega" */;
 			buildPhases = (
+				A63DBC9D3ABDF96C533EC692 /* [CP] Check Pods Manifest.lock */,
 				C94A8FF41E0B52190071CEB3 /* Sources */,
 				C94A8FF51E0B52190071CEB3 /* Frameworks */,
 				C94A8FF61E0B52190071CEB3 /* Resources */,
+				73650FD4A6F8C20BD423CA3D /* [CP] Embed Pods Frameworks */,
+				363B61D7BF10F19F5160818A /* [CP] Copy Pods Resources */,
+				C98089401E0B7E8500383F01 /* Embed Frameworks */,
+				C98089561E0B7EC800383F01 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C980893A1E0B7E8500383F01 /* PBXTargetDependency */,
+				C98089511E0B7EC800383F01 /* PBXTargetDependency */,
 			);
 			name = Omega;
 			productName = Omega;
@@ -120,9 +351,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C94A90181E0B52190071CEB3 /* Build configuration list for PBXNativeTarget "OmegaTests" */;
 			buildPhases = (
+				B7BC2FF52ED9273B21115DD6 /* [CP] Check Pods Manifest.lock */,
 				C94A90081E0B52190071CEB3 /* Sources */,
 				C94A90091E0B52190071CEB3 /* Frameworks */,
 				C94A900A1E0B52190071CEB3 /* Resources */,
+				89773E4001C383266CCF77F3 /* [CP] Embed Pods Frameworks */,
+				E64E13D7282A75831FFAF63B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +367,62 @@
 			productName = OmegaTests;
 			productReference = C94A900C1E0B52190071CEB3 /* OmegaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C98089251E0B7E8500383F01 /* SharedCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C980893D1E0B7E8500383F01 /* Build configuration list for PBXNativeTarget "SharedCode" */;
+			buildPhases = (
+				AC9ACDCBF5BC315C0C762630 /* [CP] Check Pods Manifest.lock */,
+				C98089211E0B7E8500383F01 /* Sources */,
+				C98089221E0B7E8500383F01 /* Frameworks */,
+				C98089231E0B7E8500383F01 /* Headers */,
+				C98089241E0B7E8500383F01 /* Resources */,
+				6308FA9005407AD6C6813B47 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SharedCode;
+			productName = SharedCode;
+			productReference = C98089261E0B7E8500383F01 /* SharedCode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C980892D1E0B7E8500383F01 /* SharedCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C98089411E0B7E8500383F01 /* Build configuration list for PBXNativeTarget "SharedCodeTests" */;
+			buildPhases = (
+				C980892A1E0B7E8500383F01 /* Sources */,
+				C980892B1E0B7E8500383F01 /* Frameworks */,
+				C980892C1E0B7E8500383F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C98089311E0B7E8500383F01 /* PBXTargetDependency */,
+				C98089331E0B7E8500383F01 /* PBXTargetDependency */,
+			);
+			name = SharedCodeTests;
+			productName = SharedCodeTests;
+			productReference = C980892E1E0B7E8500383F01 /* SharedCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C98089471E0B7EC800383F01 /* OmegaActionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C98089531E0B7EC800383F01 /* Build configuration list for PBXNativeTarget "OmegaActionExtension" */;
+			buildPhases = (
+				C98089441E0B7EC800383F01 /* Sources */,
+				C98089451E0B7EC800383F01 /* Frameworks */,
+				C98089461E0B7EC800383F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OmegaActionExtension;
+			productName = OmegaActionExtension;
+			productReference = C98089481E0B7EC800383F01 /* OmegaActionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -155,6 +445,23 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = C94A8FF71E0B52190071CEB3;
 					};
+					C98089251E0B7E8500383F01 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = VQXELCH5FM;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					C980892D1E0B7E8500383F01 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = VQXELCH5FM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C94A8FF71E0B52190071CEB3;
+					};
+					C98089471E0B7EC800383F01 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = VQXELCH5FM;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = C94A8FF31E0B52180071CEB3 /* Build configuration list for PBXProject "Omega" */;
@@ -168,13 +475,39 @@
 			mainGroup = C94A8FEF1E0B52180071CEB3;
 			productRefGroup = C94A8FF91E0B52190071CEB3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C98089191E0B7DD900383F01 /* Products */;
+					ProjectRef = C98089181E0B7DD900383F01 /* Jellybean.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C94A8FF71E0B52190071CEB3 /* Omega */,
 				C94A900B1E0B52190071CEB3 /* OmegaTests */,
+				C98089251E0B7E8500383F01 /* SharedCode */,
+				C980892D1E0B7E8500383F01 /* SharedCodeTests */,
+				C98089471E0B7EC800383F01 /* OmegaActionExtension */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C980891E1E0B7DD900383F01 /* Jellybean.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Jellybean.framework;
+			remoteRef = C980891D1E0B7DD900383F01 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C98089201E0B7DD900383F01 /* JellybeanTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JellybeanTests.xctest;
+			remoteRef = C980891F1E0B7DD900383F01 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C94A8FF61E0B52190071CEB3 /* Resources */ = {
@@ -183,7 +516,6 @@
 			files = (
 				C94A90061E0B52190071CEB3 /* LaunchScreen.storyboard in Resources */,
 				C94A90031E0B52190071CEB3 /* Assets.xcassets in Resources */,
-				C94A90011E0B52190071CEB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,15 +526,162 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C98089241E0B7E8500383F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98089611E0C775500383F01 /* JMdict_e in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C980892C1E0B7E8500383F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98089461E0B7EC800383F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C980894E1E0B7EC800383F01 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		363B61D7BF10F19F5160818A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Omega/Pods-Omega-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6308FA9005407AD6C6813B47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Omega-SharedCode/Pods-Omega-SharedCode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73650FD4A6F8C20BD423CA3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Omega/Pods-Omega-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89773E4001C383266CCF77F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OmegaTests/Pods-OmegaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A63DBC9D3ABDF96C533EC692 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC9ACDCBF5BC315C0C762630 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7BC2FF52ED9273B21115DD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E64E13D7282A75831FFAF63B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OmegaTests/Pods-OmegaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C94A8FF41E0B52190071CEB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C94A8FFE1E0B52190071CEB3 /* ViewController.swift in Sources */,
+				C94A901C1E0B53960071CEB3 /* ReviewViewController.swift in Sources */,
 				C94A8FFC1E0B52190071CEB3 /* AppDelegate.swift in Sources */,
+				C980890D1E0B795D00383F01 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +693,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C98089211E0B7E8500383F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98089591E0C527700383F01 /* Entry.swift in Sources */,
+				C98089631E0C780C00383F01 /* JDictInterface.swift in Sources */,
+				C980895C1E0C546500383F01 /* JapaneseEntry.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C980892A1E0B7E8500383F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98089361E0B7E8500383F01 /* SharedCodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98089441E0B7EC800383F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C980894B1E0B7EC800383F01 /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -222,23 +727,43 @@
 			target = C94A8FF71E0B52190071CEB3 /* Omega */;
 			targetProxy = C94A900D1E0B52190071CEB3 /* PBXContainerItemProxy */;
 		};
+		C98089311E0B7E8500383F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C98089251E0B7E8500383F01 /* SharedCode */;
+			targetProxy = C98089301E0B7E8500383F01 /* PBXContainerItemProxy */;
+		};
+		C98089331E0B7E8500383F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C94A8FF71E0B52190071CEB3 /* Omega */;
+			targetProxy = C98089321E0B7E8500383F01 /* PBXContainerItemProxy */;
+		};
+		C980893A1E0B7E8500383F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C98089251E0B7E8500383F01 /* SharedCode */;
+			targetProxy = C98089391E0B7E8500383F01 /* PBXContainerItemProxy */;
+		};
+		C98089511E0B7EC800383F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C98089471E0B7EC800383F01 /* OmegaActionExtension */;
+			targetProxy = C98089501E0B7EC800383F01 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C94A8FFF1E0B52190071CEB3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C94A90001E0B52190071CEB3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C94A90041E0B52190071CEB3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C94A90051E0B52190071CEB3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C980894C1E0B7EC800383F01 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C980894D1E0B7EC800383F01 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -337,7 +862,9 @@
 		};
 		C94A90161E0B52190071CEB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DC9C94320E172BF182BC452 /* Pods-Omega.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VQXELCH5FM;
 				INFOPLIST_FILE = Omega/Info.plist;
@@ -350,7 +877,9 @@
 		};
 		C94A90171E0B52190071CEB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D54A7E4A20C9A766A79E503 /* Pods-Omega.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VQXELCH5FM;
 				INFOPLIST_FILE = Omega/Info.plist;
@@ -363,8 +892,9 @@
 		};
 		C94A90191E0B52190071CEB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F7ABA0FCF0BE7803821A86 /* Pods-OmegaTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = VQXELCH5FM;
 				INFOPLIST_FILE = OmegaTests/Info.plist;
@@ -378,8 +908,9 @@
 		};
 		C94A901A1E0B52190071CEB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17183F40C725E4D74A4342D5 /* Pods-OmegaTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = VQXELCH5FM;
 				INFOPLIST_FILE = OmegaTests/Info.plist;
@@ -388,6 +919,111 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omega.app/Omega";
+			};
+			name = Release;
+		};
+		C980893E1E0B7E8500383F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16438801F75B3F2466C13E22 /* Pods-Omega-SharedCode.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VQXELCH5FM;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SharedCode/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.SharedCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C980893F1E0B7E8500383F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE0F0DEC2035E1D038440AF7 /* Pods-Omega-SharedCode.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VQXELCH5FM;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SharedCode/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.SharedCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C98089421E0B7E8500383F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VQXELCH5FM;
+				INFOPLIST_FILE = SharedCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.SharedCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omega.app/Omega";
+			};
+			name = Debug;
+		};
+		C98089431E0B7E8500383F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VQXELCH5FM;
+				INFOPLIST_FILE = SharedCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.SharedCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omega.app/Omega";
+			};
+			name = Release;
+		};
+		C98089541E0B7EC800383F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VQXELCH5FM;
+				INFOPLIST_FILE = OmegaActionExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.Omega.OmegaActionExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C98089551E0B7EC800383F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VQXELCH5FM;
+				INFOPLIST_FILE = OmegaActionExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.Omega.OmegaActionExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -410,6 +1046,7 @@
 				C94A90171E0B52190071CEB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C94A90181E0B52190071CEB3 /* Build configuration list for PBXNativeTarget "OmegaTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +1055,34 @@
 				C94A901A1E0B52190071CEB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C980893D1E0B7E8500383F01 /* Build configuration list for PBXNativeTarget "SharedCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C980893E1E0B7E8500383F01 /* Debug */,
+				C980893F1E0B7E8500383F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C98089411E0B7E8500383F01 /* Build configuration list for PBXNativeTarget "SharedCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98089421E0B7E8500383F01 /* Debug */,
+				C98089431E0B7E8500383F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C98089531E0B7EC800383F01 /* Build configuration list for PBXNativeTarget "OmegaActionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98089541E0B7EC800383F01 /* Debug */,
+				C98089551E0B7EC800383F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
