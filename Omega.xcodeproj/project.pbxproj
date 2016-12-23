@@ -25,8 +25,9 @@
 		C98089521E0B7EC800383F01 /* OmegaActionExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C98089481E0B7EC800383F01 /* OmegaActionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C98089591E0C527700383F01 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98089581E0C527700383F01 /* Entry.swift */; };
 		C980895C1E0C546500383F01 /* JapaneseEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C980895B1E0C546500383F01 /* JapaneseEntry.swift */; };
-		C98089611E0C775500383F01 /* JMdict_e in Resources */ = {isa = PBXBuildFile; fileRef = C98089601E0C775500383F01 /* JMdict_e */; };
+		C98089611E0C775500383F01 /* JMdict_e.xml in Resources */ = {isa = PBXBuildFile; fileRef = C98089601E0C775500383F01 /* JMdict_e.xml */; };
 		C98089631E0C780C00383F01 /* JDictInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98089621E0C780C00383F01 /* JDictInterface.swift */; };
+		C98089641E0C80BF00383F01 /* JMdict_e.xml in Resources */ = {isa = PBXBuildFile; fileRef = C98089601E0C775500383F01 /* JMdict_e.xml */; };
 		EA7EAD98C3D61014B1162044 /* Pods_Omega.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70096AB4540BACD8C77A363 /* Pods_Omega.framework */; };
 /* End PBXBuildFile section */
 
@@ -137,7 +138,7 @@
 		C980894F1E0B7EC800383F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C98089581E0C527700383F01 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		C980895B1E0C546500383F01 /* JapaneseEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapaneseEntry.swift; sourceTree = "<group>"; };
-		C98089601E0C775500383F01 /* JMdict_e */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = JMdict_e; sourceTree = "<group>"; };
+		C98089601E0C775500383F01 /* JMdict_e.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = JMdict_e.xml; sourceTree = "<group>"; };
 		C98089621E0C780C00383F01 /* JDictInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDictInterface.swift; sourceTree = "<group>"; };
 		D0F269FC7A276F8A5B24FBED /* Pods_OmegaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OmegaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0F0DEC2035E1D038440AF7 /* Pods-Omega-SharedCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omega-SharedCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-Omega-SharedCode/Pods-Omega-SharedCode.release.xcconfig"; sourceTree = "<group>"; };
@@ -262,7 +263,7 @@
 		C98089271E0B7E8500383F01 /* SharedCode */ = {
 			isa = PBXGroup;
 			children = (
-				C98089601E0C775500383F01 /* JMdict_e */,
+				C98089601E0C775500383F01 /* JMdict_e.xml */,
 				C980895A1E0C544600383F01 /* Models */,
 				C98089281E0B7E8500383F01 /* SharedCode.h */,
 				C98089291E0B7E8500383F01 /* Info.plist */,
@@ -516,6 +517,7 @@
 			files = (
 				C94A90061E0B52190071CEB3 /* LaunchScreen.storyboard in Resources */,
 				C94A90031E0B52190071CEB3 /* Assets.xcassets in Resources */,
+				C98089641E0C80BF00383F01 /* JMdict_e.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,7 +532,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C98089611E0C775500383F01 /* JMdict_e in Resources */,
+				C98089611E0C775500383F01 /* JMdict_e.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

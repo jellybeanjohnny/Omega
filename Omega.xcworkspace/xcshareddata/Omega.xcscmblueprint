@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "07A084CD457D3F1FC999BEAFD8CCDCF2B5595202",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "07A084CD457D3F1FC999BEAFD8CCDCF2B5595202" : 9223372036854775807,
+    "B2E94571A80C249B7D467E5DF9ED21D2FE0079A6" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6DA57F73-8A03-49E4-8FEF-ED4783F93ADD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "07A084CD457D3F1FC999BEAFD8CCDCF2B5595202" : "Omega\/",
+    "B2E94571A80C249B7D467E5DF9ED21D2FE0079A6" : "Jellybean\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Omega",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Omega.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jellybeanjohnny\/Omega.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "07A084CD457D3F1FC999BEAFD8CCDCF2B5595202"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jellybeanjohnny\/Jellybean.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B2E94571A80C249B7D467E5DF9ED21D2FE0079A6"
+    }
+  ]
+}

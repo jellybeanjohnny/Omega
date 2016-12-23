@@ -8,6 +8,7 @@
 
 import UIKit
 import SnapKit
+import SharedCode
 
 class HomeViewController: UIViewController {
 
@@ -15,6 +16,8 @@ class HomeViewController: UIViewController {
     super.viewDidLoad()
     view.backgroundColor = UIColor.white
     addDemoLabel()
+    
+    jDictTest()
   }
   
   func addDemoLabel() {
@@ -26,6 +29,11 @@ class HomeViewController: UIViewController {
       make.center.equalToSuperview()
     }
     
+  }
+  
+  func jDictTest() {
+    let interface = JDictInterface()
+    interface.readXMLDefault()
   }
 
 
