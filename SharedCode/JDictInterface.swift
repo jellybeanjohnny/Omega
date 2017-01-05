@@ -15,6 +15,8 @@ public class JDictInterface: NSObject {
   
   let filePath = Bundle.main.path(forResource: "JMdict_e", ofType: "xml")
   
+  var currentElement: String!
+  
   public func readXML() {
     let data = try! Data(contentsOf: URL(fileURLWithPath: filePath!))
     
@@ -40,22 +42,29 @@ extension JDictInterface: XMLParserDelegate {
   
   public func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String] = [:]) {
     
-    if elementName == "reb" {
-      
-    }
+    currentElement = elementName
     
     
   }
   
-  public func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
-    if elementName == "reb" {
-      
-    }
-  }
+  
+  
+  /*
+   Entries consist of kanji elements, reading elements,
+   general information and sense elements. Each entry must have at
+   least one reading element and one sense element. Others are optional.
+   */
   
   public func parser(_ parser: XMLParser, foundCharacters string: String) {
-    print(string)
-    kanji.append(string)
+    
+    let trimmedString = string.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
+    
+    if (currentElement == "keb" || currentElement == "reb" || currentElement == "gloss") && !trimmedString.isEmpty  {
+      print(trimmedString)
+    }
+    
   }
+  
+  
   
 }
