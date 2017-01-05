@@ -44,9 +44,20 @@ extension JDictInterface: XMLParserDelegate {
     
     currentElement = elementName
     
+    if currentElement == "entry" {
+      print("Starting a new entry")
+      // Create collection object to hold relevant data
+    }
     
   }
   
+  public func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
+    if elementName == "entry" {
+      print("End of entry")
+      print("\n")
+      // Add the collection object to a containing collection
+    }
+  }
   
   
   /*
@@ -61,7 +72,10 @@ extension JDictInterface: XMLParserDelegate {
     
     if (currentElement == "keb" || currentElement == "reb" || currentElement == "gloss") && !trimmedString.isEmpty  {
       print(trimmedString)
+      // populate the collection object with the information gathered here
     }
+    
+    
     
   }
   
