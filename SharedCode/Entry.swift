@@ -2,31 +2,14 @@
 //  Entry.swift
 //  Omega
 //
-//  Created by Matt Amerige on 12/22/16.
-//  Copyright © 2016 Matt Amerige. All rights reserved.
+//  Created by Matt Amerige on 1/5/17.
+//  Copyright © 2017 Matt Amerige. All rights reserved.
 //
 
-import UIKit
+import Foundation
+import RealmSwift
 
-public class Entry: NSObject {
+class Entry: Object {
+    
 
-  /**
-   Corresponds to a 'word' in a typical dictionary
-  */
-  public let term: String
-  
-  /**
-   A list of all definitions for the term
-  */
-  public let definitions: [String]
-  
-  
-  init(term: String, definitions: [String]) {
-    self.term = term
-    self.definitions = definitions
-    super.init()
-  }
-  
-  
-  
 }

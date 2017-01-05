@@ -14,6 +14,7 @@
 		C94A90061E0B52190071CEB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94A90041E0B52190071CEB3 /* LaunchScreen.storyboard */; };
 		C94A90111E0B52190071CEB3 /* OmegaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94A90101E0B52190071CEB3 /* OmegaTests.swift */; };
 		C94A901C1E0B53960071CEB3 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94A901B1E0B53960071CEB3 /* ReviewViewController.swift */; };
+		C96920301E1EC05100DC71B3 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969202F1E1EC05100DC71B3 /* Entry.swift */; };
 		C980890D1E0B795D00383F01 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C980890C1E0B795D00383F01 /* HomeViewController.swift */; };
 		C980892F1E0B7E8500383F01 /* SharedCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98089261E0B7E8500383F01 /* SharedCode.framework */; };
 		C98089361E0B7E8500383F01 /* SharedCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98089351E0B7E8500383F01 /* SharedCodeTests.swift */; };
@@ -23,8 +24,6 @@
 		C980894B1E0B7EC800383F01 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C980894A1E0B7EC800383F01 /* ActionViewController.swift */; };
 		C980894E1E0B7EC800383F01 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C980894C1E0B7EC800383F01 /* MainInterface.storyboard */; };
 		C98089521E0B7EC800383F01 /* OmegaActionExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C98089481E0B7EC800383F01 /* OmegaActionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C98089591E0C527700383F01 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98089581E0C527700383F01 /* Entry.swift */; };
-		C980895C1E0C546500383F01 /* JapaneseEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C980895B1E0C546500383F01 /* JapaneseEntry.swift */; };
 		C98089611E0C775500383F01 /* JMdict_e.xml in Resources */ = {isa = PBXBuildFile; fileRef = C98089601E0C775500383F01 /* JMdict_e.xml */; };
 		C98089631E0C780C00383F01 /* JDictInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98089621E0C780C00383F01 /* JDictInterface.swift */; };
 		C98089641E0C80BF00383F01 /* JMdict_e.xml in Resources */ = {isa = PBXBuildFile; fileRef = C98089601E0C775500383F01 /* JMdict_e.xml */; };
@@ -124,6 +123,7 @@
 		C94A90101E0B52190071CEB3 /* OmegaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmegaTests.swift; sourceTree = "<group>"; };
 		C94A90121E0B52190071CEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C94A901B1E0B53960071CEB3 /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		C969202F1E1EC05100DC71B3 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		C980890C1E0B795D00383F01 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C98089181E0B7DD900383F01 /* Jellybean.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Jellybean.xcodeproj; path = ../Jellybean/Jellybean.xcodeproj; sourceTree = "<group>"; };
 		C98089261E0B7E8500383F01 /* SharedCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SharedCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,8 +136,6 @@
 		C980894A1E0B7EC800383F01 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		C980894D1E0B7EC800383F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		C980894F1E0B7EC800383F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C98089581E0C527700383F01 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
-		C980895B1E0C546500383F01 /* JapaneseEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapaneseEntry.swift; sourceTree = "<group>"; };
 		C98089601E0C775500383F01 /* JMdict_e.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = JMdict_e.xml; sourceTree = "<group>"; };
 		C98089621E0C780C00383F01 /* JDictInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDictInterface.swift; sourceTree = "<group>"; };
 		D0F269FC7A276F8A5B24FBED /* Pods_OmegaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OmegaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -294,8 +292,7 @@
 		C980895A1E0C544600383F01 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C98089581E0C527700383F01 /* Entry.swift */,
-				C980895B1E0C546500383F01 /* JapaneseEntry.swift */,
+				C969202F1E1EC05100DC71B3 /* Entry.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -699,9 +696,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C98089591E0C527700383F01 /* Entry.swift in Sources */,
+				C96920301E1EC05100DC71B3 /* Entry.swift in Sources */,
 				C98089631E0C780C00383F01 /* JDictInterface.swift in Sources */,
-				C980895C1E0C546500383F01 /* JapaneseEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

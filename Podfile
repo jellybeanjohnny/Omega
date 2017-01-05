@@ -15,6 +15,7 @@ target 'Omega' do
 
   target 'SharedCode' do
       pod 'SWXMLHash', '~> 3.0.0'
+      pod 'RealmSwift'
   end
 
 end

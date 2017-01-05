@@ -1,15 +1,23 @@
 PODS:
+  - Realm (2.0.3):
+    - Realm/Headers (= 2.0.3)
+  - Realm/Headers (2.0.3)
+  - RealmSwift (2.0.3):
+    - Realm (= 2.0.3)
   - SnapKit (3.0.2)
   - SWXMLHash (3.0.2)
 
 DEPENDENCIES:
+  - RealmSwift
   - SnapKit (~> 3.0.2)
   - SWXMLHash (~> 3.0.0)
 
 SPEC CHECKSUMS:
+  Realm: 5f008bfe3c8c47142eddfc30b8c1584cde22db24
+  RealmSwift: 5afb451f65b682242f272dbb52d5c6f6e343c980
   SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
   SWXMLHash: e0f6935971f01b06fb228cf435510d998ecde647
 
-PODFILE CHECKSUM: 3c49d40433e6c88ee3bbbeb1beefd085b1a5ec78
+PODFILE CHECKSUM: 0030db6d385e68f4b04c4b87015204b8702b98b3
 
 COCOAPODS: 1.1.1
