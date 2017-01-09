@@ -11,11 +11,21 @@ import SWXMLHash
 
 public class JDictInterface: NSObject {
   
+  struct ElementType {
+    static let kanjiElementType = "keb"
+    static let readingElementType = "reb"
+    static let senseElementType = "gloss"
+  }
+  
   var kanji: [String] = []
   
   let filePath = Bundle.main.path(forResource: "JMdict_e", ofType: "xml")
   
-  var currentElement: String!
+  var currentElement = ""
+  
+  var currentEntry: EDICTEntry!
+  
+  var entries: [EDICTEntry] = []
   
   public func readXML() {
     let data = try! Data(contentsOf: URL(fileURLWithPath: filePath!))
@@ -46,7 +56,7 @@ extension JDictInterface: XMLParserDelegate {
     
     if currentElement == "entry" {
       print("Starting a new entry")
-      // Create collection object to hold relevant data
+      currentEntry = EDICTEntry()
     }
     
   }
@@ -55,7 +65,9 @@ extension JDictInterface: XMLParserDelegate {
     if elementName == "entry" {
       print("End of entry")
       print("\n")
-      // Add the collection object to a containing collection
+      entries.append(currentEntry)
+      currentEntry = nil
+      print(entries)
     }
   }
   
@@ -69,16 +81,23 @@ extension JDictInterface: XMLParserDelegate {
   public func parser(_ parser: XMLParser, foundCharacters string: String) {
     
     let trimmedString = string.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
-    
-    if (currentElement == "keb" || currentElement == "reb" || currentElement == "gloss") && !trimmedString.isEmpty  {
-      print(trimmedString)
-      // populate the collection object with the information gathered here
+
+    if trimmedString.isEmpty {
+      return
     }
     
-    
-    
+    parseEDICTElements(inCharacters: trimmedString)
   }
   
+  func parseEDICTElements(inCharacters string: String) {
+    if currentElement == ElementType.kanjiElementType {
+      currentEntry.kanjiElements.append(string)
+    } else if currentElement == ElementType.readingElementType {
+      currentEntry.readingElements.append(string)
+    } else if currentElement == ElementType.senseElementType {
+      currentEntry.senseElements.append(string)
+    }
+  }
   
   
 }

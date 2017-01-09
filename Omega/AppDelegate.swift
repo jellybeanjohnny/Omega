@@ -7,13 +7,15 @@
 //
 
 import UIKit
+import RealmSwift
+import Realm
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+  
   var window: UIWindow?
-
-
+  
+  
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
     
@@ -23,10 +25,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     window?.rootViewController = HomeViewController()
     
+    
+    
     return true
   }
-
-
-
+  
+  func setupRealConfiguration() {
+    let realmPath: URL =
+      FileManager.default.containerURL(forSecurityApplicationGroupIdentifier:"group.OmegaSharedContainer")!.appendingPathComponent("db.realm")
+    
+    let config = RLMRealmConfiguration.default()
+    config.fileURL = realmPath
+    
+    RLMRealmConfiguration.setDefault(config)
+  }
+  
+  
+  
 }
 

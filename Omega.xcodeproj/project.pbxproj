@@ -14,7 +14,7 @@
 		C94A90061E0B52190071CEB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94A90041E0B52190071CEB3 /* LaunchScreen.storyboard */; };
 		C94A90111E0B52190071CEB3 /* OmegaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94A90101E0B52190071CEB3 /* OmegaTests.swift */; };
 		C94A901C1E0B53960071CEB3 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94A901B1E0B53960071CEB3 /* ReviewViewController.swift */; };
-		C96920301E1EC05100DC71B3 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969202F1E1EC05100DC71B3 /* Entry.swift */; };
+		C96920301E1EC05100DC71B3 /* EDICTEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969202F1E1EC05100DC71B3 /* EDICTEntry.swift */; };
 		C980890D1E0B795D00383F01 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C980890C1E0B795D00383F01 /* HomeViewController.swift */; };
 		C980892F1E0B7E8500383F01 /* SharedCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98089261E0B7E8500383F01 /* SharedCode.framework */; };
 		C98089361E0B7E8500383F01 /* SharedCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98089351E0B7E8500383F01 /* SharedCodeTests.swift */; };
@@ -123,7 +123,7 @@
 		C94A90101E0B52190071CEB3 /* OmegaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmegaTests.swift; sourceTree = "<group>"; };
 		C94A90121E0B52190071CEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C94A901B1E0B53960071CEB3 /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
-		C969202F1E1EC05100DC71B3 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		C969202F1E1EC05100DC71B3 /* EDICTEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EDICTEntry.swift; sourceTree = "<group>"; };
 		C980890C1E0B795D00383F01 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C98089181E0B7DD900383F01 /* Jellybean.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Jellybean.xcodeproj; path = ../Jellybean/Jellybean.xcodeproj; sourceTree = "<group>"; };
 		C98089261E0B7E8500383F01 /* SharedCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SharedCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +138,8 @@
 		C980894F1E0B7EC800383F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C98089601E0C775500383F01 /* JMdict_e.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = JMdict_e.xml; sourceTree = "<group>"; };
 		C98089621E0C780C00383F01 /* JDictInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDictInterface.swift; sourceTree = "<group>"; };
+		C99257591E22F5C9009F1CFA /* Omega.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Omega.entitlements; sourceTree = "<group>"; };
+		C992575A1E22F5F4009F1CFA /* OmegaActionExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OmegaActionExtension.entitlements; sourceTree = "<group>"; };
 		D0F269FC7A276F8A5B24FBED /* Pods_OmegaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OmegaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0F0DEC2035E1D038440AF7 /* Pods-Omega-SharedCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omega-SharedCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-Omega-SharedCode/Pods-Omega-SharedCode.release.xcconfig"; sourceTree = "<group>"; };
 		F70096AB4540BACD8C77A363 /* Pods_Omega.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Omega.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -230,6 +232,7 @@
 		C94A8FFA1E0B52190071CEB3 /* Omega */ = {
 			isa = PBXGroup;
 			children = (
+				C99257591E22F5C9009F1CFA /* Omega.entitlements */,
 				C94A8FFB1E0B52190071CEB3 /* AppDelegate.swift */,
 				C94A901B1E0B53960071CEB3 /* ReviewViewController.swift */,
 				C980890C1E0B795D00383F01 /* HomeViewController.swift */,
@@ -282,6 +285,7 @@
 		C98089491E0B7EC800383F01 /* OmegaActionExtension */ = {
 			isa = PBXGroup;
 			children = (
+				C992575A1E22F5F4009F1CFA /* OmegaActionExtension.entitlements */,
 				C980894A1E0B7EC800383F01 /* ActionViewController.swift */,
 				C980894C1E0B7EC800383F01 /* MainInterface.storyboard */,
 				C980894F1E0B7EC800383F01 /* Info.plist */,
@@ -292,7 +296,7 @@
 		C980895A1E0C544600383F01 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C969202F1E1EC05100DC71B3 /* Entry.swift */,
+				C969202F1E1EC05100DC71B3 /* EDICTEntry.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -436,6 +440,11 @@
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = VQXELCH5FM;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					C94A900B1E0B52190071CEB3 = {
 						CreatedOnToolsVersion = 8.2;
@@ -459,6 +468,11 @@
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = VQXELCH5FM;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -696,7 +710,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C96920301E1EC05100DC71B3 /* Entry.swift in Sources */,
+				C96920301E1EC05100DC71B3 /* EDICTEntry.swift in Sources */,
 				C98089631E0C780C00383F01 /* JDictInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -864,6 +878,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Omega/Omega.entitlements;
 				DEVELOPMENT_TEAM = VQXELCH5FM;
 				INFOPLIST_FILE = Omega/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -879,6 +894,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Omega/Omega.entitlements;
 				DEVELOPMENT_TEAM = VQXELCH5FM;
 				INFOPLIST_FILE = Omega/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1002,6 +1018,7 @@
 		C98089541E0B7EC800383F01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OmegaActionExtension/OmegaActionExtension.entitlements;
 				DEVELOPMENT_TEAM = VQXELCH5FM;
 				INFOPLIST_FILE = OmegaActionExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -1015,6 +1032,7 @@
 		C98089551E0B7EC800383F01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OmegaActionExtension/OmegaActionExtension.entitlements;
 				DEVELOPMENT_TEAM = VQXELCH5FM;
 				INFOPLIST_FILE = OmegaActionExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
